@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage{array,booktabs}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{setspace}
+\usepackage[margin=2.5cm]{geometry} % margins
+\usepackage[parfill]{parskip}
+\usepackage{enumitem}
+\usepackage{amsfonts,latexsym,amsthm,amssymb,amsmath,amscd,euscript}
+
+%Chemistry Packages
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{chemformula}
+\usepackage{siunitx}
+\sisetup{group-digits=false}
+\usepackage{cancel}
+
+\setlength{\parindent}{0pt}
+\AtBeginDocument{\setstretch{1.125}}
+
+\title{Test 1 Review}
+\author{Anthony Yu}
+
+\begin{document}
+
+%Some new commands
+\newcommand{\problem}[1]{\subsection*{Problem {#1}}}
+\newenvironment{enumAlph}{\begin{enumerate}[label=(\alph*)]}{\end{enumerate}}
+
+\makeatletter
+\newcommand{\skipitems}[1]{%
+\addtocounter{\@enumctr}{#1}%
+}
+\makeatother
+
+\newcommand{\chunit}[3]{\qty{#1}{{#2}\,\ce{#3}}}
+\newcommand{\chuniteval}[3]{\qty[evaluate-expression]{#1}{{#2}\,\ce{#3}}}
+
+\newtheorem{definition}{Definition}
+
+\maketitle
+
+\part{Life}
+\section{7 characteristics}
+\begin{itemize}
+    \item Actively maintain organized complexity
+    \item Grow
+    \item Reproduce
+    \item Use energy and materials
+    \item Evolve
+    \item Sense and respond to stimuli
+\end{itemize}
+
+\section{Evolution}
+
+\begin{definition}[Evolution]
+    Change in gene frequencies in a population over time. 
+\end{definition}
+
+\part{Chemistry}
+\begin{definition}[Covalent bond]
+    In a covalent bond, the orbital rearranges so that electrons spend more time 
+    between nuclei, causing an attraction. The nuclei get closer to each other
+    until the attraction is counter-acted by their repulsion. 
+\end{definition}
+\begin{definition}
+    An attraction between two molecules of partially opposite charges.
+\end{definition}
+
+\section{Water}
+\subsection{Surface Tension}
+Arises from the cohesive properties of water. The attraction between 
+polar water molecules causes them to stick together and to the water beneath, 
+rather than to the air, enabling it to support some weight before
+it breaks. 
+\subsection{Specific heat}
+Water has high specific heat because the added energy first goes to 
+breaking the hydrogen bonds, which takes a ton of energy,
+before they increase the kinetic energy of the
+molecules (which heats the water up). 
+\begin{definition}[Specific heat]
+    The amount of heat required to raise a gram of substance by one celcius. 
+\end{definition}
+\subsection{Weak bonds}
+Supports capillary action and makes water a powerful solvent. 
+
+\section{Carbon}
+\begin{enumerate}
+    \item forms 4 stable covalent bonds
+    \item can bond to many side groups - more variety
+    \item can form long chains held by stable cc bonds
+    \item carbon can form single, double, triple bonds - lots of variety.
+\end{enumerate}
+
+\part{Biomolecules}
+\section{Protein}
+Examples: collagen, keratin, hemoglobin
+
+\section{Lipids}
+A phospholipid is ocnsisted of glycerol, two fatty acid tails, and a phosphate group
++ variable functional group. This group is hydrophilic due to the 
+presence of nitrogen. 
+
+Steroids are composed of four carbon rings. Can form hormones, cholestrol, testerone, 
+etc.
+
+
+\end{document}

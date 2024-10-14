@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+\usepackage{array,booktabs}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{setspace}
+\usepackage[margin=2.5cm]{geometry} % margins
+\usepackage[parfill]{parskip}
+\usepackage{enumitem}
+\usepackage{amsfonts,latexsym,amsthm,amssymb,amsmath,amscd,euscript}
+
+%Chemistry Packages
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{chemformula}
+\usepackage{siunitx}
+\sisetup{group-digits=false}
+\usepackage{cancel}
+
+\setlength{\parindent}{0pt}
+\AtBeginDocument{\setstretch{1.125}}
+
+\title{Hemodialysis Paragraph}
+\author{Anthony Yu}
+
+\begin{document}
+
+%Some new commands
+\newcommand{\problem}[1]{\subsection*{Problem {#1}}}
+\newenvironment{enumAlph}{\begin{enumerate}[label=(\alph*)]}{\end{enumerate}}
+
+\makeatletter
+\newcommand{\skipitems}[1]{%
+\addtocounter{\@enumctr}{#1}%
+}
+\makeatother
+
+\newcommand{\chunit}[3]{\qty{#1}{{#2}\,\ce{#3}}}
+\newcommand{\chuniteval}[3]{\qty[evaluate-expression]{#1}{{#2}\,\ce{#3}}}
+
+\newtheorem{definition}{Definition}
+
+\maketitle
+
+Hemodialysis is a treatment method for patients with kidney failure by removing extra
+fluids and waste from the blood stream. It helps regulate mineral levels (potassium,
+sodium, calcium) as well as blood pressure. Hemodialysis
+works by connecting the patient's blood vessels to a dialyzer filter through
+an incision. A Heparin pump pumps the blood into the dialyzer filter to 
+prevent clotting. Inside the filter, there is a side for blood and a side
+for dialyzer fluid, separated by a membrane. Harmful materials in the blood
+diffuse through the membrane while cells that originally belong to the body 
+remain in the blood. The newly filtered blood is then transferred back into 
+the patient's body. 
+
+\end{document}

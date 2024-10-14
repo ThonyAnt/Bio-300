@@ -1,0 +1,100 @@
+\documentclass[12pt]{article}
+\usepackage{array,booktabs}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{setspace}
+\usepackage[margin=2.5cm]{geometry} % margins
+\usepackage[parfill]{parskip}
+\usepackage{enumitem}
+\usepackage{amsfonts,latexsym,amsthm,amssymb,amsmath,amscd,euscript}
+
+%Chemistry Packages
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{chemformula}
+\usepackage{siunitx}
+\sisetup{group-digits=false}
+\usepackage{cancel}
+
+\setlength{\parindent}{0pt}
+\AtBeginDocument{\setstretch{1.125}}
+
+\title{Carbohydrate Lab}
+\author{Anthony Yu}
+\date{September 2024}
+
+\begin{document}
+
+%Some new commands
+\newcommand{\problem}[1]{\subsection*{Problem {#1}}}
+\newenvironment{enumAlph}{\begin{enumerate}[label=(\alph*)]}{\end{enumerate}}
+
+\makeatletter
+\newcommand{\skipitems}[1]{%
+\addtocounter{\@enumctr}{#1}%
+}
+\makeatother
+
+\newcommand{\chunit}[3]{\qty{#1}{{#2}\,\ce{#3}}}
+\newcommand{\chuniteval}[3]{\qty[evaluate-expression]{#1}{{#2}\,\ce{#3}}}
+
+\maketitle
+
+\section*{Station 1}
+The molecular formulas for glucose, frucrtose and sucrose are $\ch{C6H12O6}$, $\ch{C6H12O6}$, and $\ch{C12H22O11}$ respectively. 
+The molecular formula for glucose and fructose are the same, 
+but the arrangement of the atoms are different. One such difference is that
+glucose has a 6-carbon ring, while fructose has a 5-carbon ring. Additionally, glucose has
+aldehyde group while fructose has ketone group. 
+
+\section*{Station 2}
+\subsection*{Lab work}
+See lab sheet.
+
+\subsection*{Write up}
+The reason why these sugars have different tastes, and we might prefer some over others, is because of the way humans have evolved to adapt to 
+different types of sugars. Usually, sweeter sugars are more nourishing, as the brain
+is wired to reward us to eat more of them. This is why fructose, found in fruits,
+is sweet, but lactose isn't, as it is found in milk, something that we don't usually eat 
+after infancy. Maltose is mainly found in barley, something that we don't usually eat,
+which makes it less sweet.
+
+In order to make a disaccharide from glucose and galactose, we need to remove a water molecule through dehydration synthesis. 
+This is necessary for the glucose and galactose to bond together, as it allows the 
+two molecules to form a stable bond through the remaining oxygen. 
+
+\section*{Station 3}
+\subsection*{Lab work}
+The sugar bubbles up and begins melting. The liquid gets darker 
+as it continues to heat up, and eventually turns into a black solid, which ignites 
+when the flame is brought close to it.
+
+\subsection*{Write up}
+The black residue left is burnt sugar containing carbon. 
+Since sucrose is $\ch{C6H12O6}$ (containing hydrogen, oxygen, and carbon), 
+it will release $\ch{CO2}$ and $\ch{H2O}$ when it burns.
+
+The heat and light come from the formation of water molecules + carbon dioxide, which releases energy. This
+is because these bonds are more stable than the bonds in the sugar, since the electrons
+are next to a more electronegative atom (oxygen), making them closer to the nucleus.
+
+\section*{Station 4}
+\subsection*{Lab work}
+See lab sheet.
+
+\subsection*{Write up}
+The KI reacted with starch, cellulose, and glycogen, but not with glucose.
+
+The structures of starch, cellulose, and glycogen are all polysaccharides, 
+which are long chains of glucose subunits. However, cellulose is made of 
+$\beta$-glucose, and starch and glycogen are made of $\alpha$-glucose.
+
+Th water tests make for the control group. They are used to show that
+the KI, instead of the water, is reacting with the polysaccharides.
+
+The amalyse changed starch and glycogen by breaking them down into glucose. 
+I know this because the diastix's color changed from blue to green, indicating
+a presence of glucose. 
+
+The amalyse facilitated the process of hydrolysis. 
+
+\end{document}

@@ -81,6 +81,8 @@
     \label{fig:measurements}
 \end{figure}
 
+\newpage
+
 \subsection*{Procedure B}
 \begin{table}[h]
     \centering
@@ -128,6 +130,8 @@
     \caption{Graph of Measurements over Time for Procedure B}
     \label{fig:measurements_b}
 \end{figure}
+
+\newpage
 
 
 \subsection*{Procedure C}
@@ -187,72 +191,121 @@
     \item We could tell a reaction was occuring in test tube B 
     because the temperature increased, as shown by the thermometer.
     Additionally, bubbles comprised of oxygen gas were quickly released, overfilling
-    the test tube.
+    the test tube. This means that some liquid has transformed into gas. 
     \item Before we added the enzyme, the reaction was occuring at 
-    an extremely slow rate. 
+    an extremely slow rate. I could tell because when water was added to H2O2, 
+    the temperature did not increase. According to Mr. 
+    Chisholm, if a sealed bottle of hydrogen peroxide was left alone,
+    it would take years for it to decompose.
     \item When we added the enzyme, the
-    reaction rate increased significantly because the enzyme was able to
-    catalyze the decomposition of \ch{H2O2} into water and oxygen gas.
-    \item asdf
-    \item Induced fit. The energy hill diagram below illustrates how catalase speeds up the reaction by lowering the activation energy required for the decomposition of \ch{H2O2} into water and oxygen gas.
+    reaction rate increased significantly, as indicated by the temperature increase of the solution from 
+    23.5 degrees Celsius to 29.1 degrees Celsius in 15 seconds. Additionally, the reaction seemed to have
+    subsided after 30 seconds, when the temperature reached its peak of 29.9 degrees Celsius, and then
+    slowly decreased. Mr. Chisholm stated in class that catalase is the fastest
+    enzyme in the body. 
+    \item Catalase speeds up the reaction through the induced fit model. 
+    The substrate, hydrogen peroxide, fits into the enzyme's active site, 
+    matching its shape, size, and charge. The R groups of the amino acids in catalase’s active site are polar, which helps attract and stabilize the substrate during binding.
+    
+    This causes the enzyme to change 
+    shape slightly, putting stress on the bonds in the hydrogen peroxide 
+    molecule, making them unstable and lowering the activation energy 
+    required for the reaction, as shown in the energy hill diagram below. The bonds break, producing water and oxygen. 
+    Once these products are formed, they no longer fit the active site, 
+    so they are released, and the enzyme is free to catalyze another reaction.
 
-    \begin{figure}[h]
-        \centering
-        \begin{tikzpicture}
-            \begin{axis}[
-                xlabel={Reaction Progress},
-                ylabel={Energy},
-                legend pos=north east,
-                grid=major,
-                width=0.8\textwidth,
-                height=0.5\textwidth,
-                domain=0:10,
-                samples=100
-            ]
-            % Without enzyme
-            \addplot[
-                color=red,
-                thick
-            ]
-            {2*exp(-0.5*(x-5)^2) + 0.5*x - 1};
-            \addlegendentry{Without Catalase}
+    \begin{center}
+    \begin{tikzpicture}
 
-            % With enzyme
-            \addplot[
-                color=blue,
-                thick
-            ]
-            {1.5*exp(-0.5*(x-5)^2) + 0.5*x - 1.5};
-            \addlegendentry{With Catalase}
+        \clip (-1,-1) rectangle (9, 7);
+        
+        % Axes
+        \draw[->] (0,0) -- (8.5,0) node[midway, below] {Reaction Progress};
+        \draw[->] (0,0) -- (0,6.5) node[midway, above, rotate=90] {Energy};
+    
+        % Reaction curve
+        \draw[thick, blue] (0,3) .. controls (0.1,2.95) .. (0.2,3) .. controls (2.5,7) and (3.3,1.5) .. (6.3,1) .. controls (7.3,1) .. (8.3,0.9);
+        \draw[thick, red] (0,3) .. controls (0.1,2.95) .. (0.2,3) .. controls (2.2,10) and (3.3,1.5) .. (6.3,1) .. controls (7.3,1) .. (8.3,0.9);
+    
+        % Labels
+        \node at (1.2,3) [below, align=left] {Reactants \\e.g. \ch{2 H2O2}};
+        \node at (6,1) [below] {Products e.g. \ch{2 H2O + O2}};
+        \draw[dashed] (0,3) -- (8.5,3);
+        \draw[dashed] (8.5,1) -- (0,1);
+        \draw[dashed] (8.5,4.42) -- (0,4.42);
+        \draw[dashed] (8.5,5.75) -- (0,5.75);
 
-            % Labels
-            \node at (axis cs:5,2.5) [anchor=south] {Activation Energy};
-            \node at (axis cs:5,1.5) [anchor=south] {Lowered Activation Energy};
-            \node at (axis cs:0,0) [anchor=east] {Reactants};
-            \node at (axis cs:10,-2) [anchor=west] {Products};
+        % Activation energy label for Without Enzyme
+        \draw[<->] (3,3) -- (3,5.75) node[pos=0.75,right, align=left] {Activation Energy\\(Without Enzyme)};
+        
+        % Activation energy label for With Enzyme
+        \draw[<->] (5.5,3) -- (5.5,4.42) node[midway,right, align=left] {Activation Energy\\(With Enzyme)};
+        
+    \end{tikzpicture}
+    \end{center}
 
-            \end{axis}
-        \end{tikzpicture}
-        \caption{Energy Hill Diagram Showing the Effect of Catalase on the Reaction}
-        \label{fig:energy_hill}
-    \end{figure}
+    \item When the \ch{H2O2} bonds are broken, more stable water and oxygen gas molecules
+    are reformed. This results in an overall exothermic reaction, which explains where
+    the heat energy came from. 
+    \item The gas was oxygen. 
+    \item The formula for the reaction is:
+    \begin{center}
+        \ch{2 H2O2 -> 2 H2O + O2}
+    \end{center}
+    The products are not very harmful to cells. Water is a universal solvent, and facilitates
+    many reactions necessary for life, such as hydrolysis. Oxygen is neccesary 
+    for cellular respiration, which is the process that generates ATP. Hence,
+    the liver is a very important organ in the body, as it metabolizes drugs and waste
+    products into molecules that can be utilized by the body. 
+
+    \item The reaction is advantageous in peroxisomes is because they provide
+    the optimal environment for the enzymes that 
+    facilitate the decomposition of hydrogen peroxide. Additionally, peroxisomes isolate 
+    the inside from the rest of the cell. There, hydrogen peroxide is
+    made and instantly broken down in the peroxisome, so it does not have a chance to
+    damage the cell.
+
 \end{enumAlph}
 
-The boiled H2O2 reacted faster because the water molecules
-are removed, thus increasing the concentration of H2O2. 
+\subsection*{Question 3}
+\begin{enumAlph}
+    \item 
+    
+    \begin{enumerate}[label=\arabic*.]
+        \item Boiled liver juice: Enzymes, when subjected to 
+        high temperatures, undergo denaturation, which is
+        when they lose their shape and function. This is because heat increases the kinetic energy of molecules
+        causing them to vibrate more, which disrupts the hydrogen bonds that
+        hold the protein in shape. Even when the temperature lowers back down, 
+        the shape will not return to normal. Catalase enzymes stop working properly at
+        around 40 degrees Celsius, so boiling them at 100 degrees will completely
+        destroy their function. This is reflected in our data, indicating no 
+        temperature increase at all. 
+        
+        \item Liver juice in acid: Similarly, most enzymes denature under
+        a low pH environment, as the abundance of \ch{H+} ions can disrupt
+        the hydrogen bonds in the amino acids. This explains why barely any reaction
+        occured. 
 
-The R groups sticking out of the catalayse 
-are polar, which \dots 
+        \item Liver juice in base: Most enzymes also denature under
+        a high pH environment, as the abundance of \ch{OH-} ions can disrupt
+        the hydrogen bonds in the amino acids. This explains why barely any reaction
+        occured. 
 
-The products don't bind very well with the enzymes. On 
-the other hand, H2O2, specifically, it transitional
-state, binds best with the enzymes. However, they are 
-unstable, which means they eventually break down.
+        \item Liver juice in salt: The 15 percent salt solution was not enough to denature the 
+        enzymes. Although it did slow down the reaction, the temperature peaked at 
+        higher numbers. 
 
-The products aren't very harmful. 
+        \item Liver juice with boiled \ch{H2O2}: The boiled \ch{H2O2} reacted faster because 
+        some water molecules in the aqueous solution are removed when boiled, while 
+        \ch{H2O2} stays intact, thus
+        increasing the overall concentration of \ch{H2O2}. Enzymes work better when 
+        there is a higher concentration of substrate, as they are more likely to collide
+        with the active site.
 
-The 15 percent salt solution was not enough to denature the 
-enzymes. 
+        
+    \end{enumerate}
+\end{enumAlph}
 
 
 

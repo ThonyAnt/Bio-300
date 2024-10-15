@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.9)  14 OCT 2024 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.9)  15 OCT 2024 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -746,44 +746,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 45.
  (c:/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
+) [1
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1
-
-{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3] [4] (./enzyme lab.aux)
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] (./enzyme lab.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 32765 strings out of 474928
- 848409 string characters out of 5763562
- 1957785 words of memory out of 5000000
- 53823 multiletter control sequences out of 15000+600000
- 567161 words of font info for 75 fonts, out of 8000000 for 9000
+ 32796 strings out of 474928
+ 849958 string characters out of 5763562
+ 1942785 words of memory out of 5000000
+ 53851 multiletter control sequences out of 15000+600000
+ 567912 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,21n,103p,762b,2320s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "enzyme lab.pdf" (4 pages, 76226 bytes).
+ 99i,21n,103p,762b,2281s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on "enzyme lab.pdf" (5 pages, 69209 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 28 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 27 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

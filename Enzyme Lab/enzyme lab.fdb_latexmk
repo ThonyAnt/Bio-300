@@ -1,11 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1728964007 "d:/Exeter/Bio 300/Enzyme Lab/enzyme lab.tex" "enzyme lab.pdf" "enzyme lab" 1728964010 0
+["pdflatex"] 1729002503 "d:/Exeter/Bio 300/Enzyme Lab/enzyme lab.tex" "enzyme lab.pdf" "enzyme lab" 1729002505 0
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1696868227 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1696864649 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1696864649 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1696864649 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1696864649 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1696864649 928 2dc8d444221b7a635bb58038579b861a ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1696864649 908 2921f8a10601f252058503cc6570e581 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1696864649 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1696864649 940 228d6584342e91276bf566bcf9716b83 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1696866258 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1696866258 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -20,6 +22,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1696866258 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1696866258 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy10.tfm" 1696869737 520 82a3d37183f34b6eb363a161dfc002c2 ""
+  "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy5.tfm" 1696869737 520 d082ac03a1087bc1ec2a06e24a9f68c0 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1696869737 520 4889cce2180234b97cad636b6039c722 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy7.tfm" 1696869737 520 a74c6ed8cb48679fdc3ea874d9d34a7e ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy8.tfm" 1696869737 520 7bb3abb160b19e0ed6ac404bb59052b7 ""
@@ -27,7 +30,6 @@
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1696864649 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1696864649 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1696864649 32726 39f0f9e62e84beb801509898a605dbd5 ""
-  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1696864649 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1696870899 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2023/texmf-dist/tex/generic/chemfig/chemfig.sty" 1696866079 388 2f9ccd1a71661ff4bea57e7855b0518e ""
   "c:/texlive/2023/texmf-dist/tex/generic/chemfig/chemfig.tex" 1696866079 122164 63afe887f64c935ad00f1fdc3c5aa898 ""
@@ -201,9 +203,9 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1696875272 4750288 3c81ae0e61ea5051a9e1e981a6246c40 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1696875461 8183296 8ed50e76ec6107abb4e503182f694d29 ""
   "c:/texlive/2023/texmf.cnf" 1696875239 713 e69b156964470283e0530f5060668171 ""
-  "d:/Exeter/Bio 300/Enzyme Lab/enzyme lab.tex" 1728964007 9474 8d12165a47bba9fe134e3e1809fda677 ""
-  "enzyme lab.aux" 1728964010 1431 ad9c9cbeb2d447d0d9bbe74f11371c0a "pdflatex"
-  "enzyme lab.tex" 1728964007 9474 8d12165a47bba9fe134e3e1809fda677 ""
+  "d:/Exeter/Bio 300/Enzyme Lab/enzyme lab.tex" 1729002501 13291 4dbb38e2d0fa352d54a761c47d3033df ""
+  "enzyme lab.aux" 1729002505 1221 0b574790bd0fa6a3bb89d2877e8c5071 "pdflatex"
+  "enzyme lab.tex" 1729002501 13291 4dbb38e2d0fa352d54a761c47d3033df ""
   (generated)
   "enzyme lab.aux"
   "enzyme lab.log"

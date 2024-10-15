@@ -179,19 +179,62 @@
 
 \subsection*{Question 2}
 \begin{enumAlph}
-    \item The test tube with water and \ch{H2O2} saw a slight decrease in Temperature
-    because the water was stored in a freezer. The test tube with
-    serves as a control for the experiment compared to when we later 
-    added the liver juice, confirming that the temperature increase we saw
-    was due to the liver juice reacting with the \ch{H2O2}. 
+    \item The test tube with water and \ch{H2O2} saw a slight decrease in temperature
+    because the water was stored colder than room temperature. This test tube serves as a control. It is to show
+    the speed of reaction and temperature increases without enzymes, 
+    confirming that the temperature increase we saw
+    was due to the liver juice catalyzing the decomposition of \ch{H2O2}. 
     \item We could tell a reaction was occuring in test tube B 
-    because the temperature increased. 
+    because the temperature increased, as shown by the thermometer.
+    Additionally, bubbles comprised of oxygen gas were quickly released, overfilling
+    the test tube.
     \item Before we added the enzyme, the reaction was occuring at 
-    a very slow rate. This is because the \ch{H2O2} was decomposing
-    on its own, but at a very slow rate. When we added the enzyme, the
+    an extremely slow rate. 
+    \item When we added the enzyme, the
     reaction rate increased significantly because the enzyme was able to
     catalyze the decomposition of \ch{H2O2} into water and oxygen gas.
-    \item 
+    \item The energy hill diagram below illustrates how catalase speeds up the reaction by lowering the activation energy required for the decomposition of \ch{H2O2} into water and oxygen gas.
+
+    \begin{figure}[h]
+        \centering
+        \begin{tikzpicture}
+            \begin{axis}[
+                xlabel={Reaction Progress},
+                ylabel={Energy},
+                legend pos=north east,
+                grid=major,
+                width=0.8\textwidth,
+                height=0.5\textwidth,
+                domain=0:10,
+                samples=100
+            ]
+            % Without enzyme
+            \addplot[
+                color=red,
+                thick
+            ]
+            {2*exp(-0.5*(x-5)^2) + 0.5*x - 1};
+            \addlegendentry{Without Catalase}
+
+            % With enzyme
+            \addplot[
+                color=blue,
+                thick
+            ]
+            {1.5*exp(-0.5*(x-5)^2) + 0.5*x - 1.5};
+            \addlegendentry{With Catalase}
+
+            % Labels
+            \node at (axis cs:5,2.5) [anchor=south] {Activation Energy};
+            \node at (axis cs:5,1.5) [anchor=south] {Lowered Activation Energy};
+            \node at (axis cs:0,0) [anchor=east] {Reactants};
+            \node at (axis cs:10,-2) [anchor=west] {Products};
+
+            \end{axis}
+        \end{tikzpicture}
+        \caption{Energy Hill Diagram Showing the Effect of Catalase on the Reaction}
+        \label{fig:energy_hill}
+    \end{figure}
 \end{enumAlph}
 
 \end{document}

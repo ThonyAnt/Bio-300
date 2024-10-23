@@ -1,0 +1,46 @@
+\documentclass[12pt]{article}
+\usepackage{array,booktabs}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{setspace}
+\usepackage[margin=2.5cm]{geometry} % margins
+\usepackage[parfill]{parskip}
+\usepackage{enumitem}
+\usepackage{amsfonts,latexsym,amsthm,amssymb,amsmath,amscd,euscript}
+
+%Chemistry Packages
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{chemformula}
+\usepackage{siunitx}
+\sisetup{group-digits=false}
+\usepackage{cancel}
+
+\setlength{\parindent}{0pt}
+\AtBeginDocument{\setstretch{1.125}}
+
+\title{Stoichiometry Handout}
+\author{Anthony Yu}
+\date{April 2023}
+
+\begin{document}
+
+%Some new commands
+\newcommand{\problem}[1]{\subsection*{Problem {#1}}}
+\newenvironment{enumAlph}{\begin{enumerate}[label=(\alph*)]}{\end{enumerate}}
+
+\makeatletter
+\newcommand{\skipitems}[1]{%
+\addtocounter{\@enumctr}{#1}%
+}
+\makeatother
+
+\newcommand{\chunit}[3]{\qty{#1}{{#2}\,\ce{#3}}}
+\newcommand{\chuniteval}[3]{\qty[evaluate-expression]{#1}{{#2}\,\ce{#3}}}
+
+\newtheorem{definition}{Definition}
+
+\maketitle
+
+
+
+\end{document}

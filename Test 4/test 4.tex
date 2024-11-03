@@ -1,0 +1,111 @@
+\documentclass[12pt]{article}
+\usepackage{array,booktabs}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{setspace}
+\usepackage[margin=2.5cm]{geometry} % margins
+\usepackage[parfill]{parskip}
+\usepackage{enumitem}
+\usepackage{amsfonts,latexsym,amsthm,amssymb,amsmath,amscd,euscript}
+
+%Chemistry Packages
+\usepackage{chemfig}
+\usepackage{mhchem}
+\usepackage{chemformula}
+\usepackage{siunitx}
+\sisetup{group-digits=false}
+\usepackage{cancel}
+
+\setlength{\parindent}{0pt}
+\AtBeginDocument{\setstretch{1.125}}
+
+\title{Test 4 Review}
+\author{Anthony Yu}
+
+\begin{document}
+
+%Some new commands
+\newcommand{\problem}[1]{\subsection*{Problem {#1}}}
+\newenvironment{enumAlph}{\begin{enumerate}[label=(\alph*)]}{\end{enumerate}}
+
+\makeatletter
+\newcommand{\skipitems}[1]{%
+\addtocounter{\@enumctr}{#1}%
+}
+\makeatother
+
+\newcommand{\chunit}[3]{\qty{#1}{{#2}\,\ce{#3}}}
+\newcommand{\chuniteval}[3]{\qty[evaluate-expression]{#1}{{#2}\,\ce{#3}}}
+
+\newtheorem{definition}{Definition}
+
+\maketitle
+
+\section{Cancer}
+\subsection{9 Hallmarks}
+Making more cells isn't enough for cancer to proliferate. 
+These cells start by overdividing; but they will quickly
+get killed by the various regulatory checkpoints in our body,
+such as immune system or apoptosis. Thus they need to satisfy
+all the hallmarks. 
+
+\begin{enumerate}
+    \item Proto-oncogens mutate and become hyperactive: 
+    proto-oncogenes are genes that can turn into a cancer gene (AKA
+    an oncogene). They usually help the cell go through cell cycle. 
+    An example is rtk, a protein associated with a proto-oncegene. (recall 
+    that it is the stick thing that has 3 branches, which combine 
+    to form a dimer when they receive a growth signal). Once the 
+    proto-oncogene becomes mutated, rtk will keep telling the cell to divide.
+
+    See the sheet for more details on this process. 
+    \item Anti-oncagenes mutate and become inhibited: 
+    For example, prb and p53 genes, which are master breaks of the cell cycle,
+    stop working.
+    
+    \item Apoptotic genes mutate. This blocks apoptosis and fail to trigger it.
+    Example would be bcl-21 proteins block apoptosis, when they activate
+    the cells no longer suicide. 
+    \item Telomerase genes become active and extend telomeres to help cells
+    bypass hayflick limit and make them immortal
+    \item Cells must acquire the ability to produce VEGF and other growth 
+    factors that stimulate growth of blood vessels to nourish tumor
+    (a process sustained angiogenesis)
+    \item Metastatis: cancer cells separate from their intercellular junctions
+    and invade other tissues. 
+    \item Changes to metabolism. Some cells do 
+    anaerobic glyclyosis even in presence of oxygen. 
+    \item Avoiding immune destruction. Straightforward.
+    \item Phenotypic plasticity: 
+    Cancer cells de-differentiate and return to a more stem-cell
+    like state. 
+\end{enumerate}
+
+\subsection{Causes of mutation}
+\begin{enumerate}
+    \item Random mutations due to replication errors
+    \item Ionizing radiation
+    \item Mutagenic materials, such as arsenic in water
+    \item Viral infections promote proto-oncogenjes or 
+    deactivate tumor suppressor genes. HPV. 
+\end{enumerate}
+
+\subsection{Cancer in old age}
+most peopole have cancer in old age because the longer you live,
+the more likely there is for a mutation to occur. It's a chance game.
+
+\subsection{Early cancer}
+\begin{enumerate}
+    \item inheritance of mutated proto-oncogenes (thus present in all cells!)
+    \item Inheritance of dfective DNA repair genes
+    \item different versions of detoxifying enzymes that can 
+    make more/less harmful molecules from original molecules, or work faster/slower
+    \item Impaired immune system
+    \item Exposure to carcinogens 
+    \item disease
+\end{enumerate}
+
+\begin{definition}[Carcinogens]
+    Covalent bonds between carcigones and DNA cause mutations
+\end{definition}
+
+\end{document}

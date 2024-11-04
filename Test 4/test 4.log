@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.2)  2 NOV 2024 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.8.2)  3 NOV 2024 20:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -707,7 +707,14 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 
 {c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 
-[2] (./test 4.aux)
+[2]
+Overfull \hbox (7.82538pt too wide) in paragraph at lines 142--144
+[]\OT1/cmr/bx/n/12 Definition 2 \OT1/cmr/m/n/12 (Cen-tro-some)\OT1/cmr/bx/n/12 . []\OT1/cmr/m/it/12 Or-ga-nizes the mi-cro-tubules dur-ing cell di-vi-sion. Dur-ing anaphase,
+ []
+
+
+
+[3] (./test 4.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-05-27>
@@ -716,16 +723,16 @@ L3 programming layer <2024-05-27>
 Here is how much of TeX's memory you used:
  21887 strings out of 473584
  485765 string characters out of 5732364
- 1932908 words of memory out of 5000000
+ 1933908 words of memory out of 5000000
  44439 multiletter control sequences out of 15000+600000
  563150 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,6n,107p,562b,594s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "test 4.pdf" (2 pages, 59497 bytes).
+Output written on "test 4.pdf" (3 pages, 64593 bytes).
 PDF statistics:
- 34 PDF objects out of 1000 (max. 8388607)
- 21 compressed objects within 1 object stream
+ 37 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
